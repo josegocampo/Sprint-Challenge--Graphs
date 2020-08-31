@@ -6,6 +6,4 @@ class Player:
         if next_room is not None:
             self.current_room = next_room
             if (show_rooms):
-                next_room.print_room_description(self)
-        else:
-            print("You cannot move in that direction.")
+                
